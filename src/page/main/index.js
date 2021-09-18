@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import Layout from '../../component/Layout';
+import React from 'react';
+import Header from '../../component/Header';
+import Footer from '../../component/Footer';
 
 function Main () {
-  const [age, setAge] = useState(42);
-  
   return (
-    <Layout/>
+    <div className="main">
+      <Header/>
+      <Footer/>
+    </div>
   );
 }
 
