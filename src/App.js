@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Map from "./component/Map";
 
 import Main from "./page/Main";
 import SignUp from "./page/SignUp";
