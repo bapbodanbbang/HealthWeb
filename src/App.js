@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Patient from "./Page/Patient";
 import MedicineExchange from "./Page/MedicineExchange";
+import Management from "./Page/Management";
 
 const App = props => {
   return (
@@ -16,6 +17,9 @@ const App = props => {
         </Route>
         <Route path="/MedicineExchange">
           <MedicineExchange />
+        </Route>
+        <Route path="/Management">
+          <Management />
         </Route>
       </Switch>
     </Router>
