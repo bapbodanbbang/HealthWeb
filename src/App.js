@@ -4,20 +4,18 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Map from "./component/Map";
-
-import Main from "./page/Main";
-import SignUp from "./page/SignUp";
+import Patient from "./Page/Patient";
+import MedicineExchange from "./Page/MedicineExchange";
 
 const App = props => {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <Main />
+          <Patient />
         </Route>
-        <Route path="/signup">
-          <SignUp />
+        <Route path="/MedicineExchange">
+          <MedicineExchange />
         </Route>
       </Switch>
     </Router>
