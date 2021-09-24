@@ -5,10 +5,10 @@ import "./index.scss";
 
 function Patient () {
   return (
-    <div className="Patient">
-      <Header/>
-      <Prescription/>
-    </div>
+  <div className="Patient">
+    <Header/>
+    <Prescription/>
+  </div>
   );
 }
 

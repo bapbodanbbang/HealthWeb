@@ -4,9 +4,9 @@ function Mangament () {
   // const [age, setAge] = useState(43);
   
   return (
-    <div>
-        test
-    </div>
+  <div>
+    test
+  </div>
   );
 }
 

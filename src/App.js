@@ -10,19 +10,19 @@ import Management from "./Page/Management";
 
 const App = props => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Patient />
-        </Route>
-        <Route path="/MedicineExchange">
-          <MedicineExchange />
-        </Route>
-        <Route path="/Management">
-          <Management />
-        </Route>
-      </Switch>
-    </Router>
+  <Router>
+    <Switch>
+    <Route exact path="/">
+      <Patient />
+    </Route>
+    <Route path="/MedicineExchange">
+      <MedicineExchange />
+    </Route>
+    <Route path="/Management">
+      <Management />
+    </Route>
+    </Switch>
+  </Router>
   );
 }
 

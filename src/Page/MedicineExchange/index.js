@@ -4,9 +4,9 @@ function MdeicineExchange () {
   const [age, setAge] = useState(43);
   
   return (
-    <div>
-        {age}
-    </div>
+  <div>
+    {age}
+  </div>
   );
 }
 
