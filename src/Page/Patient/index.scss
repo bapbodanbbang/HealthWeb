@@ -1,0 +1,29 @@
+html, body, #root {
+  margin: 0;
+  height: 100vh;
+}
+
+.Patient {
+	display: block;
+	height: 100vh;
+
+	div {
+		display: flex;
+		height: 100vh;
+	}
+}
+
+.Section_A {
+  background-color: aqua;
+  width: 70vw;
+	height: auto;
+}
+
+.Section_B {
+  background-color: palevioletred;
+  width: 30vw;
+}
+
+.List {
+    display: flex;
+}
