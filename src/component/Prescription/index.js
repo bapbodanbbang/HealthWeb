@@ -6,7 +6,7 @@ function Prescription () {
   <div className="Prescription">
     <div className="Section_A">
       <div>name</div>
-      <div className="List">
+      <div>
         <div>test</div>
         <div>test2</div>
       </div>
