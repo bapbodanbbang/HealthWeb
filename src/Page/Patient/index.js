@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from '../../component/Header';
-import Footer from '../../component/Footer';
-import Map from '../../component/Map';
+import Header from '../../Component/Header';
+import Footer from '../../Component/Footer';
 
-function Main () {
+function Patient () {
   return (
-    <div className="main">
+    <div className="Patient">
       <Header/>
       <Footer/>
     </div>
   );
 }
 
-export default Main;
+export default Patient;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function SignUp () {
+function MdeicineExchange () {
   const [age, setAge] = useState(43);
   
   return (
@@ -10,4 +10,4 @@ function SignUp () {
   );
 }
 
-export default SignUp;
+export default MdeicineExchange;
