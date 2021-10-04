@@ -1,40 +1,108 @@
+.MainPage {
+  display: flex;
+  flex-direction: row;
+}
+
 .Prescription {
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 100px;
   display: flex;
-  width: 100vw;
+  flex-direction: column;
+  width: 300px;
+  height: 480px;
+  border: 2px solid#29B6F6;
+  border-radius: 10px;
 }
 
-.Section_A {
-  background-color: aqua;
-  width: 70vw;
+.Prescription_Header {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px 0px 20px;
 }
 
-.Section_A > div:nth-child(1) {
-  background-color: peachpuff;
-  width: 100vw;
-  height: 10vh;
+.Medicines {
+  height: 320px;
 }
 
-.Section_A > div:nth-child(2) {
+.Medicine {
+  margin: 20px;
+  background-color: #F4F6F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.Button_Div {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Button {
+  width: 120px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #29B6F6;
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.loading_div {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  margin-top: 100px;
+  margin-left: 10px;
+  width: 250px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
-}
-  
-.Section_B {
-  background-color: palevioletred;
-  width: 30vw;
 }
 
-.Section_B > div:nth-child(1) {
-  background-color: plum;
-  width: 100vw;
-  height: 10vh;
+.loading_text {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-.Section_B > div:nth-child(2) {
+.List {
+  margin-top: 200px;
+  margin-right: 100px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
+  flex-direction: row;
+  width: 560px;
+  height: 480px;
+  border: 2px solid#29B6F6;
+  border-radius: 10px;
+}
+
+.List_Name {
+  width: 160px;
+  background-color: #29B6F6;
+  display: flex;
+  flex-direction: column;
+}
+
+.User_Name {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.Medicine_List {
+  width: 360px;
+  height: 480px;
 }
