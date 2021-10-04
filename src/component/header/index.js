@@ -1,4 +1,5 @@
 import "./index.scss";
+import Polygon from "../../images/Polygon 3.png";
 
 function Header () {
   return (
@@ -7,24 +8,26 @@ function Header () {
         <div>
           로고 자리
         </div>
-
         <nav className="navigation">
           <ul>
-            <li>
-              메뉴 1
-            </li>
-            <li>
-              메뉴 2
-            </li>
-            <li>
-              메뉴 2
-            </li>
-            <li>
-              회원 아이콘
-            </li>
-            <li>
-              알림 로고
-            </li>
+            <div className="menu">
+              <li>
+                환자 관리
+              </li>
+              <img src={Polygon} width="20px"/>
+            </div>
+            <div className="menu">
+              <li>
+                의약품 교품거래
+              </li>
+              <img src={Polygon} width="20px"/>
+            </div>
+            <div className="menu">
+              <li>
+                의약품 관리
+              </li>
+              <img src={Polygon} width="20px"/>
+            </div>
           </ul>
         </nav>
       </div>
