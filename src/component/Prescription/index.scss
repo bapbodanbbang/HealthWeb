@@ -6,14 +6,13 @@
 
 .Prescription {
   margin-top: 200px;
-  margin-left: 200px;
   margin-right: 100px;
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 480px;
-  border: 2px solid#29B6F6;
+  width: 440px;
+  height: 560px;
   border-radius: 10px;
+  box-shadow: -6px 6px 20px 5px #d4d4d4;
 }
 
 .Prescription_Header {
@@ -24,16 +23,36 @@
   margin: 20px 20px 0px 20px;
 }
 
+.User_Icon {
+  margin-left: 10px;
+}
+
+.User {
+  margin-left: 15px;
+}
+
+.User_Name {
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
 .Medicines {
-  height: 320px;
+  height: 360px;
 }
 
 .Medicine {
-  margin: 20px;
-  background-color: #F4F6F8;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 372px;
+  height: 46px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  overflow: hidden;
+  background-color: #F6FBFF;
 }
 
 .Button_Div {
@@ -45,19 +64,23 @@
 }
 
 .Button {
-  width: 120px;
-  height: 40px;
+  cursor: pointer;
+  width: 180px;
+  height: 45px;
+  padding-top: 25px;
   margin-left: 20px;
   margin-right: 20px;
   border: 0px;
-  border-radius: 10px;
-  background-color: #29B6F6;
-  font-size: 100px;
+  border-radius: 20px;
+  font-size: 20px;
   color: #FFFFFF;
+  background-color: #4285FF;
+  text-align: center;
 }
 
 .loading_div {
   display: flex;
+  padding-left: 70px;
   width: 300px;
   flex-direction: column;
   align-items: center;
@@ -65,8 +88,8 @@
 }
 
 .loading {
-  margin-top: 100px;
   margin-left: 10px;
+  margin-bottom: 20px;
   width: 250px;
   height: 250px;
   display: flex;
@@ -75,37 +98,60 @@
 }
 
 .loading_text {
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   font-size: 20px;
 }
 
 .List {
+  width: 736px;
+  height: 560px;
   margin-top: 200px;
-  margin-right: 100px;
   display: flex;
   flex-direction: row;
-  width: 560px;
-  height: 480px;
-  border: 2px solid#29B6F6;
+  box-shadow: -6px 6px 20px 5px #d4d4d4;
   border-radius: 10px;
 }
 
 .List_Name {
   width: 160px;
-  background-color: #29B6F6;
+  background-color: #F2F2F2;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Name {
+.Name:first-child {
+  border-top-left-radius: 10px;
   text-align: center;
-  width: 100px;
-  color: #FFFFFF;
+  width: 160px;
   font-size: 20px;
-  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   cursor: pointer;
 }
+
+.Name {
+  text-align: center;
+  width: 160px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.Name_Selected {
+  background-color: #FFFFFF;
+  text-align: center;
+  width: 160px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
 
 .Highlight {
   background-color: #FFFFFF;
@@ -114,38 +160,42 @@
 .Medicine_List {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  align-items: center;
+  width: 576px;
   height: 480px;
 }
 
 .Medicine_Title {
   width: 100px;
-  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   padding-bottom: 5px;
   text-align: center;
   font-size: 20px;
-  color: #29B6F6;
-  border-bottom: 1px solid#29B6F6;
 }
 
 .MakeMedicine {
-  width: 290px;
-  margin-left: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px;
-  background-color: #F4F6F8;
+  width: 520px;
+  height: 34px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #F6FBFF;
+  font-size: 20px;
 }
 
 .Medicine_Complete {
-  text-align: center;
+  cursor: pointer;
   position: absolute;
-  bottom: 150px;
-  padding: 20px;
-  width: 100px;
+  margin-top: 450px;
+  padding-top: 20px;
+  text-align: center;
+  width: 177px;
+  height: 46px;
   border-radius: 10px;
-  background-color: #29B6F6;
+  background-color: #4285FF;
   color: #FFFFFF;
-  font-size: 15px;
-  margin-left: 100px;
+  font-size: 20px;
 }
